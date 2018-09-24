@@ -52,6 +52,18 @@ function loadClock() {
 		];
 		var currentMonth = monthsOfTheYear[month];
 		monthDateYear.innerHTML = currentMonth + " " + date + " " + year;
-		
+	}
+	function whichDay() {
+		daysOfTheWeek = [
+			"Sunday",
+			"Monday",
+			"Tuesday",
+			"Wednesday",
+			"Thursday",
+			"Friday",
+			"Saturday"
+		];
+		var currentDay = daysOfTheWeek[day];
+		weekDay.innerHTML = currentDay;
 	}
 }
