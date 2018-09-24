@@ -1,0 +1,23 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #00877D;
+}
+
+.myClock {
+	width: 320px;
+	height: 164px;
+	margin: 100px auto;
+	background: #1A1A1A;
+	border: 5px solid #1687a7;
+	border-radius: 0 50px 0 50px;
+	box-shadow: 5 px 5px 15px #555,
+				-5px -5px 15px #555;
+	color: rgb(4, 226, 226);
+}
