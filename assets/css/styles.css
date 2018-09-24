@@ -62,3 +62,10 @@ body {
 	float: right;
 	width: 40%;
 }
+
+.date p {
+	margin: 0;
+	border: 1px solid rgb(0, 255, 255);
+	padding: 4px 0;
+	text-align: center;
+}
