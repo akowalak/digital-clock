@@ -66,4 +66,9 @@ function loadClock() {
 		var currentDay = daysOfTheWeek[day];
 		weekDay.innerHTML = currentDay;
 	}
+	lessThanTen();
+	whichMonth();
+	whichDay();
 }
+
+setInterval(loadClock, 1000);
