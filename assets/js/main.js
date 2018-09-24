@@ -34,4 +34,24 @@ function loadClock() {
 		hrAndMin.innerHTML = hours + ":" + minutes;
 		sec.innerHTML = seconds; 
 	}
+
+	function whichMonth() {
+		var monthsOfTheYear = [
+			"January",
+			"February",
+			"March",
+			"April",
+			"May",
+			"June",
+			"July",
+			"August",
+			"September",
+			"October",
+			"November",
+			"December"
+		];
+		var currentMonth = monthsOfTheYear[month];
+		monthDateYear.innerHTML = currentMonth + " " + date + " " + year;
+		
+	}
 }
