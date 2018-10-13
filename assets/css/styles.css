@@ -7,13 +7,13 @@
 }
 
 body {
-	background-color: #00877D;
+	background-color: #FFF;
 }
 
 .myClock {
 	width: 320px;
 	height: 164px;
-	margin: 100px auto;
+	margin: 200px auto;
 	background: #1A1A1A;
 	border: 5px solid #1687a7;
 	border-radius: 0 50px 0 50px;
@@ -71,7 +71,6 @@ body {
 }
 
 footer {
-	border: solid 1px black;
 	text-align: center;
-	font-family: sans-serif;
+	border: 1px solid black;
 }
